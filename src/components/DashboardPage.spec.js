@@ -4,10 +4,10 @@ import {expect} from 'chai';
 import DashboardPage from './DashboardPage';
 
 describe('<DashboardPage />', () => {
-  it('should have a header called \'About\'', () => {
+  it('should have a header called \'Dashboard\'', () => {
     const wrapper = shallow(<DashboardPage />);
     const actual = wrapper.find('h2').text();
-    const expected = 'About';
+    const expected = 'Dashboard';
 
     expect(actual).to.equal(expected);
   });
