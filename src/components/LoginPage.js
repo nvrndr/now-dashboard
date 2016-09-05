@@ -13,8 +13,8 @@ const LoginPage = () => {
               <Header as="h2">Login</Header>
             </Card.Header>
             <Card.Description>
-              <Input className="icon login-input" icon="user" placeholder="Username" />
-              <Input className="icon login-input" icon="privacy" placeholder="Password" />
+              <Input id = "login-user" className="icon login-input" icon="user" placeholder="Username" />
+              <Input id = "login-pass" className="icon login-input" type="password" icon="privacy" placeholder="Password" />
             </Card.Description>
           </Card.Content>
           <Card.Content extra>

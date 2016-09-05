@@ -4,7 +4,7 @@ import { Header } from 'stardust';
 const App = (props) => {
   return (
     <div>
-    <Header as='h1'>Now Dashboard</Header>
+    <Header as="h1">Now Dashboard</Header>
       {props.children}
     </div>
   );
