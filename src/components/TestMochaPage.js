@@ -16,7 +16,6 @@ const TestMochaPage = () => {
               <input placeholder='Last Name' />
             </Form.Field>
             <Form.Field>
-              <label>First Name</label>
               <Checkbox label='I agree to the Terms and Conditions' />
             </Form.Field>
             <Button type='submit'>Submit</Button>
