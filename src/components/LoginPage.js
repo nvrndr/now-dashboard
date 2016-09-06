@@ -3,7 +3,6 @@ import {Link} from 'react-router';
 import { Header, Card, Icon, Button, Input } from 'stardust';
 import '../styles/login-page.css';
 
-
 const LoginPage = () => {
   return (
     <div>
@@ -13,8 +12,8 @@ const LoginPage = () => {
               <Header as="h2">Login</Header>
             </Card.Header>
             <Card.Description>
-              <Input id = "login-user" className="icon login-input" icon="user" placeholder="Username" />
-              <Input id = "login-pass" className="icon login-input" type="password" icon="privacy" placeholder="Password" />
+              <Input className="login-user icon login-input" icon="user" placeholder="Username" />
+              <Input className="login-pass icon login-input" type="password" icon="privacy" placeholder="Password" />
             </Card.Description>
           </Card.Content>
           <Card.Content extra>

@@ -29,17 +29,17 @@ class TestMochaPage extends React.Component {
                     <Form.Field>
                         <Checkbox label="I agree to the Terms and Conditions" />
                     </Form.Field>
-                    <Button type="submit">Submit</Button>
+                    <Button className="primary" type="submit">Submit</Button>
                     <Link to="dashboard"> 
-                        <a className="primary login-button">
+                    <Button className="secondary">
                             <Icon name="chevron circle left" /> Back
-                        </a>
+                    </Button>
                     </Link>
                 </Form>
             </div>
             );
-    }
-}
+          }
+  }
 
 TestMochaPage.propTypes = {
     submitForm: React.PropTypes.func

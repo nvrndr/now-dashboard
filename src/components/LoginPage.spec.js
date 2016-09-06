@@ -26,22 +26,6 @@ describe('<LoginPage />', () => {
     expect(actual).to.equal(expected);
   });
 
-  it('should be password input type', () => {
-    const wrapper = shallow(<LoginPage />);
-    const actual = wrapper.find('login-user').text();
-    const expected = 'login-user';
-
-    expect(actual).to.equal(expected);
-  }); 
-
-  it('should be password input type', () => {
-    const wrapper = shallow(<LoginPage />);
-    const actual = wrapper.find('login-pass').prop('className');
-    const expected = 'login-pass';
-
-    expect(actual).to.equal(expected);
-  }); 
-
    it('should have a button', function () {
     const wrapper = shallow(<LoginPage/>);
     expect(wrapper.find('.login-button')).to.have.length(1);

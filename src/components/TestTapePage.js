@@ -16,13 +16,12 @@ const TestTapePage = () => {
               <input placeholder="Last Name" />
             </Form.Field>
             <Form.Field>
-              <label>First Name</label>
               <Checkbox label="I agree to the Terms and Conditions" />
             </Form.Field>
-            <Button type="submit">Submit</Button>
+            <Button className="primary" type="submit">Submit</Button>
             <Link to="dashboard"> 
-            <Button className="primary login-button">
-                 <Icon name="chevron circle left" /> Back
+            <Button className="secondary">
+                    <Icon name="chevron circle left" /> Back
             </Button>
             </Link>
           </Form>
