@@ -1,14 +1,16 @@
 import React, { PropTypes } from 'react';
 import { Header, Container } from 'stardust';
-import '../styles/login-page.css';
+import SidebarComponent from './SidebarComponent';
+
 
 const App = (props) => {
   return (
     <div>
+    <SidebarComponent />
     <Container text>
     <Header as="h1">Now Dashboard</Header>
       {props.children}
- 	</Container>
+    </Container>
     </div>
   );
 };
